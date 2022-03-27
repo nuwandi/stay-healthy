@@ -9,7 +9,6 @@ interface Props {
 }
 
 export default function Home({posts}: Props) {
-    console.log(posts)
   return (
     <div className="max-w-7xl mx-auto">
       <Head>
@@ -20,15 +19,15 @@ export default function Home({posts}: Props) {
         <Header />
         <div className="flex justify-between items-center bg-yellow-400 border-y border-black py-10 lg:py-0">
             <div className="px-10 space-y-5">
-                <h1 className="text-6xl max-w-xl font-serif">
-                    <span className="underline decoration-black decoration-4">Medium</span> {" "}
-                    is a place to write, read, and connect
+                <h1 className="text-5xl max-w-xl font-serif">
+                    <span className="underline decoration-black decoration-4">Stay Healthy</span> {" "}
+                    is a place where you can learn all the healthy tips
                 </h1>
-                <h2>It's easy and free to post your thinking on any topic and connect with millions of readers</h2>
+                <h2>The greatest wealth is health</h2>
             </div>
             <img
-                className="hidden md:inline-flex h-32 lg:h-full"
-                src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png"
+                className="hidden md:inline-flex w-32 lg:w-2/5"
+                src="https://static.vecteezy.com/system/resources/previews/001/188/239/non_2x/heart-logo-png.png"
             />
         </div>
 

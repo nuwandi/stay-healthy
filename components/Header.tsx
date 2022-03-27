@@ -7,20 +7,17 @@ function Header() {
             <div className="flex items-center space-x-5">
                 <Link href="/">
                     <img
-                        className="w-44 object-contain cursor-pointer"
-                        src="https://www.baty.ch/wp-content/uploads/2020/11/1s986xIGqhfsN8U-09_AdA.png"
+                        className="w-14 object-contain cursor-pointer"
+                        src="https://static.vecteezy.com/system/resources/previews/001/188/239/non_2x/heart-logo-png.png"
                         alt="logo"
                     />
                 </Link>
-                <div className="hidden md:inline-flex items-center space-x-5"> {/*class starts from mobile first*/ }
-                    <h3>About</h3>
-                    <h3>Contact</h3>
-                    <h3 className="text-white bg-green-600 px-4 py-1 rounded-full">Follow</h3>
-                </div>
-            </div>
-            <div className="flex items-center space-x-5 text-green-600">
-                <h3>Sign In</h3>
-                <h3 className="border px-4 py-1 rounded-full border-green-600">Get Started</h3>
+                <Link href="/">
+                    <h3 className='uppercase cursor-pointer tracking-tighter text-2xl'>
+                        <span className='font-light'>Stay </span>
+                        <span className='font-extrabold'>Healthy</span>
+                    </h3>
+                </Link>
             </div>
         </header>
     );
