@@ -21,7 +21,7 @@ export default function Home({posts}: Props) {
             <div className="px-10 space-y-5">
                 <h1 className="text-5xl max-w-xl font-serif">
                     <span className="underline decoration-black decoration-4">Stay Healthy</span> {" "}
-                    is a place where you can learn all the healthy tips
+                    is a place where you can learn all the tips to be healthy 
                 </h1>
                 <h2>The greatest wealth is health</h2>
             </div>
